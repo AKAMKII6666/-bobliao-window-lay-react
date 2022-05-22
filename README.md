@@ -3,7 +3,7 @@
 使用方法:
 ```javascript
 import WindowLay from '@bobliao/window-lay-react';
-import { useableFuncs } from '@bobliao/window-lay-react';
+import { useableFuncs } from '@bobliao/window-lay-react//dist/iWindow';
 
 const App = () => {
   const wl = useRef<useableFuncs>(null);
@@ -26,7 +26,7 @@ const App = () => {
 
 
 
-      <WindowLayReact 
+      <WindowLay 
         //标题
         title = {''},
         //位置
@@ -78,7 +78,7 @@ const App = () => {
         ref={wl}
       >
         <div>this is content</div>
-      </WindowLayReact>
+      </WindowLay>
 
 
     </div>
