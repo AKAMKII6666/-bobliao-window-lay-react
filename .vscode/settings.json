@@ -1,0 +1,92 @@
+{
+	"security.workspace.trust.untrustedFiles": "open",
+	"explorer.confirmDelete": false,
+	"editor.tabSize": 4,
+	"editor.formatOnType": true,
+	// 在style样式中, 使用缩进, 缩进是2个空格
+	//"vetur.format.styleInitialIndent": true,
+	//// 在script样式中, 使用缩进, 缩进2个空格
+	//"vetur.format.scriptInitialIndent": true,
+	//"vetur.format.defaultFormatterOptions": {
+	//	// 用于template部分的格式化
+	//	"prettyhtml": {
+	//		// 超过80个字符的标签换行显示
+	//		"printWidth": 80
+	//	},
+	//	// 用于script部分的格式化
+	//	"prettier": {
+	//		// 使用单引号
+	//		"singleQuote": true,
+	//		// 不使用;号
+	//		"semi": false,
+	//		"proseWrap": "never",
+	//		"printWidth": 80
+	//	}
+	//},
+	//// stylus不使用{}
+	//"stylusSupremacy.insertBraces": false,
+	//// stylus不使用;
+	//"stylusSupremacy.insertSemicolons": false,
+	"editor.fontSize": 14,
+	"cssrem.addMark": true,
+	"cssrem.fixedDigits": 14,
+	"cssrem.wxssDeviceWidth": 750,
+	"cssrem.rootFontSize": 14,
+	"prettier.printWidth": 300,
+	"prettier.tabWidth": 4,
+	"files.autoSave": "off",
+	"vetur.format.options.tabSize": 4,
+	"editor.codeActionsOnSave": {
+	
+		"source.fixAll": false,
+		"source.fixAll.eslint": true
+	},
+	// 配置 ESLint 检查的文件类型
+	"eslint.validate": ["javascript", "js", "jsx", "vue", "html"],
+	"editor.formatOnSaveMode": "modifications",
+	"editor.formatOnSave": true,
+	"files.associations": {
+		"*.js": "javascriptreact",
+		"*.jsx": "javascriptreact"
+	},
+	"prettier.useTabs": true,
+	"editor.tabCompletion": "on",
+	"editor.minimap.showSlider": "always",
+	"eslint.alwaysShowStatus": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"workbench.editor.untitled.hint": "hidden",
+	"editor.definitionLinkOpensInPeek": true,
+	//支持在js中编写html
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"debug.javascript.autoAttachFilter": "smart",
+	"dart.flutterSdkPath": "/Users/bobliao/flutter",
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	"html.hover.references": false,
+	"html.hover.documentation": false,
+	"css.hover.references": false,
+	"css.hover.documentation": false,
+	"less.hover.references": false,
+	"less.hover.documentation": false,
+	"scss.hover.references": false,
+	"scss.hover.documentation": false,
+	"editor.hover.delay": 1,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"window.zoomLevel": -1,
+	"workbench.iconTheme": "vscode-icons",
+	"editor.quickSuggestionsDelay": 3,
+	"editor.hover.sticky": false,
+	"px-to-rem.px-per-rem": 14
+}

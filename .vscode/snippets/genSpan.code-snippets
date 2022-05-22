@@ -1,0 +1,11 @@
+{
+	"genSpan":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "sp",
+		"body": [
+			"<span className=\"$0\">",
+			"\t",
+			"</span>",
+		]
+	},
+} 

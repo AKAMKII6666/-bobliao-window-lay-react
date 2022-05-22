@@ -1,0 +1,13 @@
+{
+	"genInput-text":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "input_text",
+		"body": [
+			"const [$0,set$0] = useState<string>(\"\");",
+			"const change$0 = function({currentTarget}):void{",
+				"\tset$0(currentTarget.value);",
+			"};",
+			"<input type=\"text\" value={$0} onChange={change$0} />",
+		]
+	},
+}

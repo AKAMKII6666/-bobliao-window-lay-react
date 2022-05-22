@@ -1,0 +1,11 @@
+{
+	"genFor":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "for",
+		"body": [
+			"for(var i=0;i<$0.length;i++){",
+				"\t var item = $0[i];",
+			"}",
+		]
+	},
+} 

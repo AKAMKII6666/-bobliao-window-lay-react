@@ -1,0 +1,11 @@
+{
+	"genMap":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "map",
+		"body": [
+			"Object.keys($0)?.map((item) => {",
+				"\t",
+			"})",
+		]
+	},
+} 

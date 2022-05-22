@@ -1,0 +1,9 @@
+{
+	"genRef":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "rfrf",
+		"body": [
+			"const $0 = useRef<any>(null);",
+		]
+	},
+}

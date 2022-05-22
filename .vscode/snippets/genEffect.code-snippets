@@ -1,0 +1,16 @@
+{
+	"genEffect":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "efef",
+		"body": [
+			"\tuseEffect(",
+				"\t\tfunction ():ReturnType<React.EffectCallback> {",
+
+					"\t\t\treturn function (): void {",
+					"\t\t\t};",
+				"\t\t},",
+				"\t\t[$0]",
+			"\t);",
+		]
+	},
+} 

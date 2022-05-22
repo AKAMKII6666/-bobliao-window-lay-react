@@ -1,0 +1,11 @@
+{
+	"genTsxFile_ref":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "<><>",
+		"body": [
+			"<>",
+			"\t$0",
+			"</>",
+		]
+	},
+} 

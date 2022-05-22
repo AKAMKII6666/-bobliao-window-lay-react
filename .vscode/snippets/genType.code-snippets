@@ -1,0 +1,14 @@
+{
+	"genType":{
+		"scope": "javascriptreact,typescriptreact,typescript",
+		"prefix": "type_gen",
+		"body": [
+			"/*",
+			"* ",
+			"*/",
+			"export type T$0 ={",
+				"\t",
+			"}",
+		]
+	},
+} 

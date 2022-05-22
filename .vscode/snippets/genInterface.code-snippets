@@ -1,0 +1,14 @@
+{
+	"genInterface":{
+		"scope": "javascriptreact,typescriptreact,typescript",
+		"prefix": "interface_gen",
+		"body": [
+			"/*",
+			"* ",
+			"*/",
+			"export interface I$0{",
+				"\t",
+			"}",
+		]
+	},
+} 

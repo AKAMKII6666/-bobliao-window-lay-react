@@ -1,0 +1,11 @@
+{
+	"genDiv":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "dddd",
+		"body": [
+			"<div className=\"$0\">",
+			"\t",
+			"</div>",
+		]
+	},
+} 

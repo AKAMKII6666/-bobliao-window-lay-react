@@ -1,0 +1,22 @@
+{
+	"genUseAll":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "useAll_gen",
+		"body": [
+			"/**导出url跳转组件 */",
+			"const history = useHistory();",
+			"/**导出jquery */",
+			"const $: jQueryObject = useJquery();",
+			"/*导出公用组件*/",
+			"const { data, commonFuncs, alt, ask, print, popUp, printAlt, printAsk, printWarn } = useCommonContext();",
+			"/**导出合约操作器 */",
+			"const operator = useMmOperator(contractConfig);",
+			"/**导出钱包控制器 */",
+			"const { walletData,walletFuncs } = useWalletContext();",
+			"/**导出区块链警告组件 */",
+			"useWarnBlockChain(contractConfig);",
+			"/*使用ajax模块*/",
+			"const { fetch } = useAjax(require(\"../../../cgiConfig/club.config.json\") as IajaxConfig);",
+		]
+	},
+}

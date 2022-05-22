@@ -1,0 +1,12 @@
+{
+	"genDiv+Div":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "dddi",
+		"body": [
+			"<div className=\"$0\" >",
+				"\t<div className=\"$0Inside\" >",
+				"\t</div>",
+			"</div>",
+		]
+	},
+} 

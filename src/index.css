@@ -1,0 +1,250 @@
+/**
+弹出窗口控件
+**/
+.b-ballWindow{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    float: left;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 1.21428571428571rem /* 17px -> 1.21428571428571rem */ .92857142857143rem /* 13px -> .92857142857143rem */ 5.42857142857143rem /* 76px -> 5.42857142857143rem */ .35714285714286rem /* 5px -> .35714285714286rem */ rgb(0 0 0 / 17%);
+    backdrop-filter: blur(.21428571428571rem /* 3px -> .21428571428571rem */);
+    border-radius: .35714285714286rem /* 5px -> .35714285714286rem */;
+    background-color: #ffffffc2;
+}
+
+.b-ballWindow .b-title{
+    color: #fff;
+    cursor: move;
+    text-align: center;
+    position: relative;
+}
+
+.b-ballWindow .b-title span{
+	color: #11142D;
+    font-size: 1.57142857142857rem /* 22px -> 1.57142857142857rem */;
+}
+
+.b-ballWindow .title-line{
+    color: #11142D;
+    font-size: 1.57142857142857rem /* 22px -> 1.57142857142857rem */;
+    margin-top: 1.64285714285714rem /* 23px -> 1.64285714285714rem */;
+    line-height: 2.64285714285714rem /* 37px -> 2.64285714285714rem */;
+    text-align: center;
+}
+
+.b-ballWindow .b-title label{
+	background-image: url(./img/closeIcon.svg);
+	width:.71428571428571rem /* 10px -> .71428571428571rem */;
+	height:.71428571428571rem /* 10px -> .71428571428571rem */;
+	background-size:.71428571428571rem /* 10px -> .71428571428571rem */;
+	cursor: pointer;
+    position: absolute;
+    right:1.07142857142857rem /* 15px -> 1.07142857142857rem */;
+    top: 1.07142857142857rem /* 15px -> 1.07142857142857rem */;
+}
+
+.b-ballWindow .b-window-container{
+    font-size:1.42857142857143rem /* 20px -> 1.42857142857143rem */;
+    line-height: 1.57142857142857rem /* 22px -> 1.57142857142857rem */;
+    color: #808191;
+    padding: .71428571428571rem /* 10px -> .71428571428571rem */ 2.14285714285714rem /* 30px -> 2.14285714285714rem */;
+    text-align: center;
+    margin-bottom: 1.28571428571429rem /* 18px -> 1.28571428571429rem */;
+    padding-top: 1.7rem;
+}
+
+
+.b-window-background{
+	width: 100%;
+	top:0px;
+	left:0px;
+	z-index: 999;
+	position: fixed;
+	background-color: #ffffff98;
+	opacity: 0.48;
+	filter: alpha(opacity=48);
+    height:120%;
+}
+
+.b-w-buttonContainer{
+    overflow: hidden;
+    text-align: center;
+}
+
+.n-button{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 3.14285714285714rem /* 44px -> 3.14285714285714rem */;
+    width: auto;
+    background-color: #FD5E00;
+    color: #fff;
+    font-size: .85714285714286rem /* 12px -> .85714285714286rem */;
+    text-align: center;
+    cursor: pointer;
+    /* border: 1px solid #fff; */
+    border-radius: .71428571428571rem /* 10px -> .71428571428571rem */;
+    display: inline-block;
+    margin-right: 1.07142857142857rem /* 15px -> 1.07142857142857rem */;
+    margin-left: 1.07142857142857rem /* 15px -> 1.07142857142857rem */;
+    margin-bottom: 2.14285714285714rem /* 30px -> 2.14285714285714rem */;
+    transition: all .5s;
+}
+
+.noButton{
+    line-height: 3rem /* 42px -> 3rem */;
+    border:.07142857142857rem /* 1px -> .07142857142857rem */ solid rgba(128,129,145,0.5);
+    background: #fff;
+    color:#808191;
+}
+
+.n-button:hover{
+	font-size: 1.14285714285714rem /* 16px -> 1.14285714285714rem */;
+}
+
+.n-button:active{
+	background-image: none;
+	color:#fff;
+}
+
+
+.b-w-b{
+	min-width:10.28571428571429rem /* 144px -> 10.28571428571429rem */;
+}
+
+
+
+
+
+/*移动端时使用的样式:竖屏样式*/
+@media (orientation: portrait ){
+	.b-ballWindow{
+        overflow: hidden;
+        position: fixed;
+        top:0px;
+        left:0px;
+        z-index: 1000;
+        float: left;
+        -moz-user-select: none; 
+        -o-user-select:none; 
+        -khtml-user-select:none; /* you could also put this in a class */ 
+        -webkit-user-select:none;/* and add the CSS class here instead */ 
+        -ms-user-select:none; 
+        user-select:none;/**禁止选中文字*/
+        background-color: #fff;
+        width:42.85714285714285rem /* 600px -> 42.85714285714285rem */;
+        border:0px;
+        box-shadow: none;
+        border-radius: 1.78571428571429rem /* 25px -> 1.78571428571429rem */;
+        backdrop-filter: none;
+        user-select: none;
+    }
+    
+
+    
+    .b-ballWindow .title-line{
+        color: #11142D;
+        font-size: 2.5457142857rem;
+        margin-top: 2.6614285714rem;
+        line-height: 4.2814285714rem;
+        text-align: center;
+    }
+    
+    .b-ballWindow .b-title span{
+        color: #ffffff;
+        display: inline;
+        float: none;
+        text-shadow: none;
+        font-size: 2.32142857142857rem /* 32.5px -> 2.32142857142857rem */;
+    }
+    
+    .b-ballWindow .b-window-container{ 
+        background-color:transparent;
+        font-size: 2.14285714285714rem /* 30px -> 2.14285714285714rem */;
+        color: #808191;
+        text-align: center;
+        padding: 2.21428571428571rem /* 31px -> 2.21428571428571rem */;
+        text-shadow: none;
+        line-height: 2.85714285714286rem /* 40px -> 2.85714285714286rem */;
+    }
+    
+    
+    .b-window-background{
+        width: 100%;
+        top:0px;
+        left:0px;
+        z-index: 999;
+        position: fixed;
+        background-color: #918c8c5f;
+    }
+    
+    .b-w-buttonContainer{
+        background-color: transparent;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .n-button{
+        display: block;
+        border:0px;
+        margin: 0px;
+        padding: 0px;
+        height:6.85714285714286rem /* 96px -> 6.85714285714286rem */;
+        line-height:6.85714285714286rem /* 96px -> 6.85714285714286rem */;
+        width:auto;
+        background-color: #fff;
+        color:#FD5E00;
+        font-size: 2.00285714285714rem /* 28.04px -> 2.00285714285714rem */;
+        text-align: center;
+        cursor:pointer;
+        border-top: .07142857142857rem /* 1px -> .07142857142857rem */ solid #E4E4E4;
+        display: inline-block;
+        border-radius: 0;
+        transition: unset;
+        border-right:.07142857142857rem /* 1px -> .07142857142857rem */ solid #E4E4E4;
+    }
+
+    .n-button:nth-last-child(1){
+        border-right:0;
+    }
+    
+    .noButton{
+        color:#11142D;
+    }
+
+    .lastOne{
+        border-right:0;
+    }
+    
+    .n-button:hover{
+        color:#dfdbdb;
+    }
+    
+    .n-button:active{
+        background-image: none;
+        color:#FD5E00;
+        font-size: 2.00285714285714rem /* 28.04px -> 2.00285714285714rem */;
+    }
+    
+    
+    .b-w-b{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

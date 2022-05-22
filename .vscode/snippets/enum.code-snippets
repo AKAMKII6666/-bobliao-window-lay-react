@@ -1,0 +1,14 @@
+{
+	"genEnum":{
+		"scope": "javascriptreact,typescriptreact,typescript",
+		"prefix": "enum_gen",
+		"body": [
+			"/*",
+			"* ",
+			"*/",
+			"export enum E$0{",
+				"\t",
+			"}",
+		]
+	},
+} 

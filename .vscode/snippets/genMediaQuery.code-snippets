@@ -1,0 +1,13 @@
+{
+	"genMediaQuery":{
+		"scope": "javascriptreact,typescriptreact,typescript",
+		"prefix": "MediaQuery_gen",
+		"body": [
+			"import MediaQuery from \"react-responsive\";",
+			"<MediaQuery maxWidth={900}>",
+			"</MediaQuery>",
+			"<MediaQuery minWidth={901}>",
+			"</MediaQuery>",
+		]
+	},
+} 

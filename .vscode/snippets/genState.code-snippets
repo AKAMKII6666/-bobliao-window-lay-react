@@ -1,0 +1,9 @@
+{
+	"genState":{
+		"scope": "javascriptreact,typescriptreact",
+		"prefix": "stst",
+		"body": [
+			"const [$0, set$0] = useState<any>(\"\");",
+		]
+	},
+}
