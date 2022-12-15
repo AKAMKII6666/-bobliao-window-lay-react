@@ -47,6 +47,8 @@ const WindowLayReact = forwardRef<useableFuncs, IwlProp>(
         //yesno为确定和取消
         //free为自定义
         mode: 'none',
+        yesText: 'Sure',
+        noText: 'No',
         yesCall: function() {},
         noCall: function() {},
         arr: [],
@@ -110,8 +112,8 @@ const WindowLayReact = forwardRef<useableFuncs, IwlProp>(
           mode: buttons.mode,
           yesCall: buttons.yesCall,
           noCall: buttons.noCall,
-          yesText: 'Yes',
-          noText: 'No',
+          yesText: buttons.yesText,
+          noText: buttons.noText,
           arr: buttons.arr,
         },
         //是否加入背景

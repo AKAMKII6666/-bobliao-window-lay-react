@@ -10,13 +10,15 @@ export interface IwlProp {
   position?: {
     x: number | string;
     y: number | string;
-  }; 
+  };
   size?: {
     width: number | string;
     height?: number | string;
   };
   buttons?: {
     mode?: string;
+    yesText?: string;
+    noText?: string;
     yesCall?: Function;
     noCall?: Function;
     arr?: Array<Ibutton>;
